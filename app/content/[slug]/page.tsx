@@ -3,6 +3,7 @@ import { ARTICLES, ALL_CONTENT, CATEGORIES, type ContentItem } from "@/lib/conte
 import { processHtmlFile } from "@/lib/html-processor";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { DiscordInvite } from "@/components/DiscordInvite";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -89,6 +90,11 @@ export default async function ContentPage({ params }: Props) {
             ))}
           </div>
         )}
+
+        {/* Discord invite — visible while reading on desktop sidebar */}
+        <div className="sidebar-section">
+          <DiscordInvite variant="sidebar" />
+        </div>
       </aside>
 
       {/* Main content */}

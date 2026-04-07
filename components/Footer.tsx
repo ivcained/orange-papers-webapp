@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DiscordInvite } from "./DiscordInvite";
 
 
 const FOOTER_LINKS = {
@@ -50,6 +51,7 @@ export function Footer() {
             This mirror has no affiliation with the original author. 
             For corrections contact the site maintainer.
           </p>
+          <DiscordInvite variant="footer" />
         </div>
 
         {Object.entries(FOOTER_LINKS).map(([section, links]) => (

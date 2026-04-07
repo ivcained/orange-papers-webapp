@@ -510,6 +510,45 @@ a:hover { color: var(--text-link-hover); }
 }
 .btn-secondary:hover { background: rgba(255,255,255,0.09); border-color: var(--accent-orange); color: var(--text-primary); }
 
+.btn-discord-hero { display: inline-flex; align-items: center; gap: 0.6rem; }
+.btn-discord-hero svg { color: #5865F2; flex-shrink: 0; }
+.btn-discord-hero:hover { border-color: #5865F2 !important; color: var(--text-primary); }
+.btn-discord-hero:hover svg { color: #7983f5; }
+.btn-discord-hero__text { display: flex; flex-direction: column; align-items: flex-start; gap: 0.1rem; }
+.btn-discord-hero__main { font-size: 0.9rem; font-weight: 500; line-height: 1.2; }
+.btn-discord-hero__sub { font-size: 0.72rem; opacity: 0.7; line-height: 1.2; white-space: nowrap; }
+
+/* ── Scroll Nav ────────────────────────────────────── */
+.scroll-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 9998;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(0.5rem);
+  transition: opacity 0.25s, transform 0.25s, border-color 0.2s, color 0.2s;
+  pointer-events: none;
+}
+.scroll-to-top--visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.scroll-to-top:hover {
+  border-color: var(--accent-orange);
+  color: var(--accent-orange);
+}
+
 /* Stats bar */
 .stats-bar {
   display: flex;
@@ -1154,6 +1193,101 @@ a:hover { color: var(--text-link-hover); }
   transition: all 0.15s;
 }
 .content-nav-btn:hover { border-color: var(--accent-orange); color: var(--accent-orange); }
+
+/* ═══════════════════════════════════════════════════════════════
+   DISCORD INVITE
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Sidebar variant — compact, fits inside the sticky sidebar */
+.discord-invite-sidebar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0.75rem;
+  margin-top: 0.5rem;
+  background: rgba(88, 101, 242, 0.07);
+  border: 1px solid rgba(88, 101, 242, 0.2);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+  color: inherit;
+}
+.discord-invite-sidebar:hover {
+  background: rgba(88, 101, 242, 0.14);
+  border-color: rgba(88, 101, 242, 0.4);
+  color: inherit;
+}
+.discord-invite-sidebar__icon {
+  color: #5865F2;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.discord-invite-sidebar__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+.discord-invite-sidebar__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.discord-invite-sidebar__sub {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Footer variant — slightly larger, inline with brand section */
+.discord-invite-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 0.9rem;
+  margin-top: 1rem;
+  background: rgba(88, 101, 242, 0.07);
+  border: 1px solid rgba(88, 101, 242, 0.2);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+  color: inherit;
+  width: fit-content;
+  max-width: 100%;
+}
+.discord-invite-footer:hover {
+  background: rgba(88, 101, 242, 0.14);
+  border-color: rgba(88, 101, 242, 0.4);
+  color: inherit;
+}
+.discord-invite-footer__icon {
+  color: #5865F2;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.discord-invite-footer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.discord-invite-footer__label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.discord-invite-footer__sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
 
 /* ═══════════════════════════════════════════════════════════════
    FOOTER

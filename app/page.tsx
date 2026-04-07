@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ARTICLES, LETTERS, CATEGORIES } from "@/lib/content-index";
 import type { Metadata } from "next";
+import { DiscordInvite } from "@/components/DiscordInvite";
 
 export const metadata: Metadata = {
   title: "The Orange Papers — Truth About Alcoholics Anonymous",
@@ -69,6 +70,7 @@ export default function HomePage() {
             <Link href="/articles" className="btn-secondary">
               Browse All Articles
             </Link>
+            <DiscordInvite variant="hero" />
             <a href="https://orangepapers.eth.limo" target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Original Site ↗
             </a>

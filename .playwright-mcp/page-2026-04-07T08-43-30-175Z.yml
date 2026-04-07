@@ -1,0 +1,1364 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "🍊 Orange Papers AA Truth Archive" [ref=e3] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e4]: 🍊
+      - generic [ref=e5]:
+        - text: Orange Papers
+        - generic [ref=e6]: AA Truth Archive
+    - generic [ref=e7]:
+      - button "Search" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+      - button "Menu" [ref=e12] [cursor=pointer]
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: 🍊
+        - text: The Orange Papers — Digital Archive
+      - heading "The Truth About Alcoholics Anonymous" [level=1] [ref=e22]:
+        - text: The Truth About
+        - text: Alcoholics Anonymous
+      - paragraph [ref=e23]: A comprehensive, evidence-based series investigating A.A., twelve-step programs, real recovery science, and the hidden history of the organization that controls addiction treatment worldwide.
+      - generic [ref=e24]:
+        - text: “There is a principle which is a bar against all information, which is proof against all arguments and which cannot fail to keep a man in everlasting ignorance — that principle is contempt prior to investigation.”
+        - generic [ref=e25]: — Herbert Spencer (misquoted in the Big Book by Bill Wilson)
+      - generic [ref=e26]:
+        - link "Start Reading" [ref=e27] [cursor=pointer]:
+          - /url: /content/intro
+          - text: Start Reading
+          - img [ref=e28]
+        - link "Browse All Articles" [ref=e30] [cursor=pointer]:
+          - /url: /articles
+        - link "Join the Orange Papers Discord channel" [ref=e31] [cursor=pointer]:
+          - /url: https://discord.gg/Xr8hNYtY3w
+          - img [ref=e32]
+          - text: Discord
+        - link "Original Site ↗" [ref=e34] [cursor=pointer]:
+          - /url: https://orangepapers.eth.limo
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: 428+
+        - generic [ref=e38]: Letters Volumes
+      - generic [ref=e39]:
+        - generic [ref=e40]: 90+
+        - generic [ref=e41]: Core Articles
+      - generic [ref=e42]:
+        - generic [ref=e43]: 14MB+
+        - generic [ref=e44]: Original Content
+      - generic [ref=e45]:
+        - generic [ref=e46]: 20+
+        - generic [ref=e47]: Years of Research
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Featured Reading" [level=2] [ref=e51]
+        - generic [ref=e52]: Start Here
+      - generic [ref=e53]:
+        - link "📊 The Effectiveness of Twelve-Step Treatment Statistical analysis reveals AA's true success rate — the numbers you're not told." [ref=e54] [cursor=pointer]:
+          - /url: /content/effectiveness
+          - generic [ref=e55]: 📊
+          - generic [ref=e56]: The Effectiveness of Twelve-Step Treatment
+          - generic [ref=e57]: Statistical analysis reveals AA's true success rate — the numbers you're not told.
+        - link "🧠 The Lizard-Brain Addiction Monster An alternative biological model of addiction that actually explains the science." [ref=e58] [cursor=pointer]:
+          - /url: /content/addiction-monster
+          - generic [ref=e59]: 🧠
+          - generic [ref=e60]: The Lizard-Brain Addiction Monster
+          - generic [ref=e61]: An alternative biological model of addiction that actually explains the science.
+        - link "🎭 Propaganda & Debating Techniques The psychological manipulation tactics used to suppress critical thinking in AA." [ref=e62] [cursor=pointer]:
+          - /url: /content/propaganda
+          - generic [ref=e63]: 🎭
+          - generic [ref=e64]: Propaganda & Debating Techniques
+          - generic [ref=e65]: The psychological manipulation tactics used to suppress critical thinking in AA.
+        - link "📜 The Religious Roots of A.A. How Bill Wilson lifted Alcoholics Anonymous wholesale from a fascist-era religious cult." [ref=e66] [cursor=pointer]:
+          - /url: /content/religious-roots
+          - generic [ref=e67]: 📜
+          - generic [ref=e68]: The Religious Roots of A.A.
+          - generic [ref=e69]: How Bill Wilson lifted Alcoholics Anonymous wholesale from a fascist-era religious cult.
+        - link "🧪 The Cult Test Every cult characteristic measured — how does AA score? The results are startling." [ref=e70] [cursor=pointer]:
+          - /url: /content/cult-answers
+          - generic [ref=e71]: 🧪
+          - generic [ref=e72]: The Cult Test
+          - generic [ref=e73]: Every cult characteristic measured — how does AA score? The results are startling.
+        - link "🐀 Rat Park & Other Children's Stories The famous study that blew up conventional addiction mythology." [ref=e74] [cursor=pointer]:
+          - /url: /content/rat-park
+          - generic [ref=e75]: 🐀
+          - generic [ref=e76]: Rat Park & Other Children's Stories
+          - generic [ref=e77]: The famous study that blew up conventional addiction mythology.
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - heading "Core Critiques" [level=2] [ref=e81]
+        - generic [ref=e82]: 39 articles
+      - generic [ref=e83]:
+        - link "Introduction Introduction to the Orange Papers investigation of Alcoholics Anonymous" [ref=e84] [cursor=pointer]:
+          - /url: /content/intro
+          - generic [ref=e85]: Introduction
+          - generic [ref=e86]: Introduction to the Orange Papers investigation of Alcoholics Anonymous
+        - link "The 12 Biggest Secrets of A.A." [ref=e87] [cursor=pointer]:
+          - /url: /content/secrets
+          - generic [ref=e88]: The 12 Biggest Secrets of A.A.
+        - link "The Effectiveness of the Twelve-Step Treatment Statistical analysis of AA's actual success rates" [ref=e89] [cursor=pointer]:
+          - /url: /content/effectiveness
+          - generic [ref=e90]: The Effectiveness of the Twelve-Step Treatment
+          - generic [ref=e91]: Statistical analysis of AA's actual success rates
+        - link "The Twelve Steps Interpreted" [ref=e92] [cursor=pointer]:
+          - /url: /content/interpreted
+          - generic [ref=e93]: The Twelve Steps Interpreted
+        - link "The Twelve Traditions Interpreted" [ref=e94] [cursor=pointer]:
+          - /url: /content/traditions
+          - generic [ref=e95]: The Twelve Traditions Interpreted
+        - link "Twelve-Step Snake Oil" [ref=e96] [cursor=pointer]:
+          - /url: /content/snake-oil
+          - generic [ref=e97]: Twelve-Step Snake Oil
+        - link "A.A. Horror Stories" [ref=e98] [cursor=pointer]:
+          - /url: /content/horrors
+          - generic [ref=e99]: A.A. Horror Stories
+        - link "A.A. Suicides" [ref=e100] [cursor=pointer]:
+          - /url: /content/suicides
+          - generic [ref=e101]: A.A. Suicides
+        - link "Interventions" [ref=e102] [cursor=pointer]:
+          - /url: /content/interventions
+          - generic [ref=e103]: Interventions
+        - link "A.A. \"No Meds\" Horror Stories" [ref=e104] [cursor=pointer]:
+          - /url: /content/no-meds
+          - generic [ref=e105]: A.A. "No Meds" Horror Stories
+        - link "A.A. Divorces" [ref=e106] [cursor=pointer]:
+          - /url: /content/divorce
+          - generic [ref=e107]: A.A. Divorces
+        - link "The Heresy of the Twelve Steps" [ref=e108] [cursor=pointer]:
+          - /url: /content/heresy
+          - generic [ref=e109]: The Heresy of the Twelve Steps
+        - link "Propaganda and Debating Techniques" [ref=e110] [cursor=pointer]:
+          - /url: /content/propaganda
+          - generic [ref=e111]: Propaganda and Debating Techniques
+        - link "The Bait and Switch Con Game" [ref=e112] [cursor=pointer]:
+          - /url: /content/bait-switch
+          - generic [ref=e113]: The Bait and Switch Con Game
+        - link "Powerless Over Alcohol" [ref=e114] [cursor=pointer]:
+          - /url: /content/powerless
+          - generic [ref=e115]: Powerless Over Alcohol
+        - link "The Funny Spirituality of Bill Wilson and A.A." [ref=e116] [cursor=pointer]:
+          - /url: /content/funny-spirituality
+          - generic [ref=e117]: The Funny Spirituality of Bill Wilson and A.A.
+        - link "The Dry Drunk" [ref=e118] [cursor=pointer]:
+          - /url: /content/dry-drunk
+          - generic [ref=e119]: The Dry Drunk
+        - link "Bill and The Other Women" [ref=e120] [cursor=pointer]:
+          - /url: /content/other-women
+          - generic [ref=e121]: Bill and The Other Women
+        - link "The \"Us Stupid Drunks\" Conspiracy" [ref=e122] [cursor=pointer]:
+          - /url: /content/us-stupid-drunks
+          - generic [ref=e123]: The "Us Stupid Drunks" Conspiracy
+        - link "Recruiting Mind Games" [ref=e124] [cursor=pointer]:
+          - /url: /content/recruit
+          - generic [ref=e125]: Recruiting Mind Games
+        - link "A.A. and Religious Faith" [ref=e126] [cursor=pointer]:
+          - /url: /content/religious-faith
+          - generic [ref=e127]: A.A. and Religious Faith
+        - link "The Hazelden Coffee War" [ref=e128] [cursor=pointer]:
+          - /url: /content/coffee
+          - generic [ref=e129]: The Hazelden Coffee War
+        - link "\"It's Spiritual, Not Religious\"" [ref=e130] [cursor=pointer]:
+          - /url: /content/spirrel
+          - generic [ref=e131]: "\"It's Spiritual, Not Religious\""
+        - link "Birth of the Big Book" [ref=e132] [cursor=pointer]:
+          - /url: /content/bigbook
+          - generic [ref=e133]: Birth of the Big Book
+        - link "Financial Analysis of the Creation of the Big Book" [ref=e134] [cursor=pointer]:
+          - /url: /content/aacoa
+          - generic [ref=e135]: Financial Analysis of the Creation of the Big Book
+        - 'link "Boot Camps: Children''s Gulags" [ref=e136] [cursor=pointer]':
+          - /url: /content/gulags
+          - generic [ref=e137]: "Boot Camps: Children's Gulags"
+        - link "The Killjoy Cover-Up" [ref=e138] [cursor=pointer]:
+          - /url: /content/killjoy
+          - generic [ref=e139]: The Killjoy Cover-Up
+        - link "The 12 Biggest Lies of A.A." [ref=e140] [cursor=pointer]:
+          - /url: /content/aalies
+          - generic [ref=e141]: The 12 Biggest Lies of A.A.
+        - link "The Problem With Statistics" [ref=e142] [cursor=pointer]:
+          - /url: /content/statistics
+          - generic [ref=e143]: The Problem With Statistics
+        - link "Sentenced to A.A." [ref=e144] [cursor=pointer]:
+          - /url: /content/sentenced
+          - generic [ref=e145]: Sentenced to A.A.
+        - link "What Carl G. Jung Really Said" [ref=e146] [cursor=pointer]:
+          - /url: /content/jung
+          - generic [ref=e147]: What Carl G. Jung Really Said
+        - link "Tobacco" [ref=e148] [cursor=pointer]:
+          - /url: /content/tobacco
+          - generic [ref=e149]: Tobacco
+        - link "What's Good About A.A.?" [ref=e150] [cursor=pointer]:
+          - /url: /content/whats-good
+          - generic [ref=e151]: What's Good About A.A.?
+        - link "What's Not Good About A.A.?" [ref=e152] [cursor=pointer]:
+          - /url: /content/not-good
+          - generic [ref=e153]: What's Not Good About A.A.?
+        - link "Stories of the Midtown Group of A.A." [ref=e154] [cursor=pointer]:
+          - /url: /content/midtown-stories
+          - generic [ref=e155]: Stories of the Midtown Group of A.A.
+        - link "Stories about Clancy Imusland's Pacific Group" [ref=e156] [cursor=pointer]:
+          - /url: /content/clancy
+          - generic [ref=e157]: Stories about Clancy Imusland's Pacific Group
+        - link "A.A. \"MILLIONS Saved\" Stories" [ref=e158] [cursor=pointer]:
+          - /url: /content/millions
+          - generic [ref=e159]: A.A. "MILLIONS Saved" Stories
+        - link "Accusations that Telling the Truth is Killing Alcoholics" [ref=e160] [cursor=pointer]:
+          - /url: /content/disservice
+          - generic [ref=e161]: Accusations that Telling the Truth is Killing Alcoholics
+        - link "Accusations of \"You Have a Resentment\"" [ref=e162] [cursor=pointer]:
+          - /url: /content/resentment
+          - generic [ref=e163]: Accusations of "You Have a Resentment"
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - heading "Alternative Recovery" [level=2] [ref=e166]
+        - generic [ref=e167]: 6 articles
+      - generic [ref=e168]:
+        - link "The Lizard-Brain Addiction Monster Alternative understanding of addiction biology" [ref=e169] [cursor=pointer]:
+          - /url: /content/addiction-monster
+          - generic [ref=e170]: The Lizard-Brain Addiction Monster
+          - generic [ref=e171]: Alternative understanding of addiction biology
+        - link "What Works?" [ref=e172] [cursor=pointer]:
+          - /url: /content/what-works
+          - generic [ref=e173]: What Works?
+        - link "Rat Park and Other Children's Stories" [ref=e174] [cursor=pointer]:
+          - /url: /content/rat-park
+          - generic [ref=e175]: Rat Park and Other Children's Stories
+        - link "How To Deprogram Your Own Mind" [ref=e176] [cursor=pointer]:
+          - /url: /content/deprogram
+          - generic [ref=e177]: How To Deprogram Your Own Mind
+        - link "Top 10 Reading List" [ref=e178] [cursor=pointer]:
+          - /url: /content/top10
+          - generic [ref=e179]: Top 10 Reading List
+        - link "Sensible Evidence-based Recovery and Support Groups" [ref=e180] [cursor=pointer]:
+          - /url: /content/alt-list
+          - generic [ref=e181]: Sensible Evidence-based Recovery and Support Groups
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - heading "Pro-AA Propaganda Analyzed" [level=2] [ref=e184]
+        - generic [ref=e185]: 8 articles
+      - generic [ref=e186]:
+        - 'link "AA-Booster Pseudo-Science: Spirituality — Key to Recovery" [ref=e187] [cursor=pointer]':
+          - /url: /content/spirrecov
+          - generic [ref=e188]: "AA-Booster Pseudo-Science: Spirituality — Key to Recovery"
+        - 'link "More AA-Booster Pseudo-Science: The Spiritual Dimension of Healing" [ref=e189] [cursor=pointer]':
+          - /url: /content/pseudo2
+          - generic [ref=e190]: "More AA-Booster Pseudo-Science: The Spiritual Dimension of Healing"
+        - link "More Big Lies — A.A. Propaganda As Usual" [ref=e191] [cursor=pointer]:
+          - /url: /content/big-lie
+          - generic [ref=e192]: More Big Lies — A.A. Propaganda As Usual
+        - 'link "AA-Booster Propaganda: Cults — Faith, Healing, and Coercion" [ref=e193] [cursor=pointer]':
+          - /url: /content/galanter
+          - generic [ref=e194]: "AA-Booster Propaganda: Cults — Faith, Healing, and Coercion"
+        - 'link "Dr. Harry Tiebout: The First Fascist Mad Scientist of A.A." [ref=e195] [cursor=pointer]':
+          - /url: /content/tiebout
+          - generic [ref=e196]: "Dr. Harry Tiebout: The First Fascist Mad Scientist of A.A."
+        - link "Answer to a George Vaillant Speech" [ref=e197] [cursor=pointer]:
+          - /url: /content/vaillant
+          - generic [ref=e198]: Answer to a George Vaillant Speech
+        - link "The Recovery Propaganda Machine, Part 7" [ref=e199] [cursor=pointer]:
+          - /url: /content/pmachine7
+          - generic [ref=e200]: The Recovery Propaganda Machine, Part 7
+        - link "A Reply to Kris Best's Articles" [ref=e201] [cursor=pointer]:
+          - /url: /content/kris-best
+          - generic [ref=e202]: A Reply to Kris Best's Articles
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - heading "Cult Test" [level=2] [ref=e205]
+        - generic [ref=e206]: 4 articles
+      - generic [ref=e207]:
+        - link "The Cult Test, and A.A. as a Cult" [ref=e208] [cursor=pointer]:
+          - /url: /content/cult
+          - generic [ref=e209]: The Cult Test, and A.A. as a Cult
+        - link "The Cult Test Questions" [ref=e210] [cursor=pointer]:
+          - /url: /content/cult-questions
+          - generic [ref=e211]: The Cult Test Questions
+        - link "The Cult Test Answers, for A.A." [ref=e212] [cursor=pointer]:
+          - /url: /content/cult-answers
+          - generic [ref=e213]: The Cult Test Answers, for A.A.
+        - link "900 A.A. Slogans" [ref=e214] [cursor=pointer]:
+          - /url: /content/cult-slogans
+          - generic [ref=e215]: 900 A.A. Slogans
+    - generic [ref=e216]:
+      - generic [ref=e217]:
+        - heading "Religious Roots of A.A." [level=2] [ref=e218]
+        - generic [ref=e219]: 34 articles
+      - generic [ref=e220]:
+        - link "The Religious Roots of A.A. and the Twelve Steps" [ref=e221] [cursor=pointer]:
+          - /url: /content/religious-roots
+          - generic [ref=e222]: The Religious Roots of A.A. and the Twelve Steps
+        - link "Bill Wilson Writes The Steps" [ref=e223] [cursor=pointer]:
+          - /url: /content/rroot-030
+          - generic [ref=e224]: Bill Wilson Writes The Steps
+        - link "Frank Buchman" [ref=e225] [cursor=pointer]:
+          - /url: /content/rroot-060
+          - generic [ref=e226]: Frank Buchman
+        - link "The Religious Tenets and Doctrines of Buchmanism" [ref=e227] [cursor=pointer]:
+          - /url: /content/rroot-090
+          - generic [ref=e228]: The Religious Tenets and Doctrines of Buchmanism
+        - link "The Cult Characteristics of the Oxford Groups" [ref=e229] [cursor=pointer]:
+          - /url: /content/rroot-120
+          - generic [ref=e230]: The Cult Characteristics of the Oxford Groups
+        - link "The \"First Century Christian Fellowship\" Campus Crusade" [ref=e231] [cursor=pointer]:
+          - /url: /content/rroot-150
+          - generic [ref=e232]: The "First Century Christian Fellowship" Campus Crusade
+        - link "Hobnobbing With The Nabobs" [ref=e233] [cursor=pointer]:
+          - /url: /content/rroot-180
+          - generic [ref=e234]: Hobnobbing With The Nabobs
+        - link "My God How The Money Rolls In" [ref=e235] [cursor=pointer]:
+          - /url: /content/rroot-210
+          - generic [ref=e236]: My God How The Money Rolls In
+        - link "Partying with the Nazi Party" [ref=e237] [cursor=pointer]:
+          - /url: /content/rroot-240
+          - generic [ref=e238]: Partying with the Nazi Party
+        - link "The Oxford Group Morphs Into MRA" [ref=e239] [cursor=pointer]:
+          - /url: /content/rroot-270
+          - generic [ref=e240]: The Oxford Group Morphs Into MRA
+        - 'link "The Years Before the War: Appeasing Hitler" [ref=e241] [cursor=pointer]':
+          - /url: /content/rroot-300
+          - generic [ref=e242]: "The Years Before the War: Appeasing Hitler"
+        - link "Invasion of Poland, WWII Starts in Europe" [ref=e243] [cursor=pointer]:
+          - /url: /content/rroot-330
+          - generic [ref=e244]: Invasion of Poland, WWII Starts in Europe
+        - link "A Slogan a Day Keeps The Thinking Away" [ref=e245] [cursor=pointer]:
+          - /url: /content/rroot-360
+          - generic [ref=e246]: A Slogan a Day Keeps The Thinking Away
+        - link "Pearl Harbor, The USA Is In It Now" [ref=e247] [cursor=pointer]:
+          - /url: /content/rroot-390
+          - generic [ref=e248]: Pearl Harbor, The USA Is In It Now
+        - link "Dodging the Draft" [ref=e249] [cursor=pointer]:
+          - /url: /content/rroot-420
+          - generic [ref=e250]: Dodging the Draft
+        - link "Sam Shoemaker Quits" [ref=e251] [cursor=pointer]:
+          - /url: /content/rroot-450
+          - generic [ref=e252]: Sam Shoemaker Quits
+        - link "What Is Fascism? How Fascist Was Frank Buchman?" [ref=e253] [cursor=pointer]:
+          - /url: /content/rroot-480
+          - generic [ref=e254]: What Is Fascism? How Fascist Was Frank Buchman?
+        - 'link "The War Years: On the Road Again" [ref=e255] [cursor=pointer]':
+          - /url: /content/rroot-510
+          - generic [ref=e256]: "The War Years: On the Road Again"
+        - link "Henry Ford and Anti-Semitism" [ref=e257] [cursor=pointer]:
+          - /url: /content/rroot-540
+          - generic [ref=e258]: Henry Ford and Anti-Semitism
+        - link "After The War, Trouble With The Catholics" [ref=e259] [cursor=pointer]:
+          - /url: /content/rroot-570
+          - generic [ref=e260]: After The War, Trouble With The Catholics
+        - link "Frank Buchman, Anti-Communist, Union-Buster" [ref=e261] [cursor=pointer]:
+          - /url: /content/rroot-600
+          - generic [ref=e262]: Frank Buchman, Anti-Communist, Union-Buster
+        - link "Homophobia and Gay-Bashing" [ref=e263] [cursor=pointer]:
+          - /url: /content/rroot-630
+          - generic [ref=e264]: Homophobia and Gay-Bashing
+        - link "Partying in a Fairy-Tale Castle" [ref=e265] [cursor=pointer]:
+          - /url: /content/rroot-660
+          - generic [ref=e266]: Partying in a Fairy-Tale Castle
+        - link "Death of a Salesman, Peter Howard Takes Over" [ref=e267] [cursor=pointer]:
+          - /url: /content/rroot-690
+          - generic [ref=e268]: Death of a Salesman, Peter Howard Takes Over
+        - 'link "The Last Hurrah: Up With People" [ref=e269] [cursor=pointer]':
+          - /url: /content/rroot-720
+          - generic [ref=e270]: "The Last Hurrah: Up With People"
+        - link "Obscurity" [ref=e271] [cursor=pointer]:
+          - /url: /content/rroot-750
+          - generic [ref=e272]: Obscurity
+        - link "Bill Wilson Gets Religion (And Drugs) And Sees God" [ref=e273] [cursor=pointer]:
+          - /url: /content/rroot-780
+          - generic [ref=e274]: Bill Wilson Gets Religion (And Drugs) And Sees God
+        - link "Bill and Dr. Bob Start A.A." [ref=e275] [cursor=pointer]:
+          - /url: /content/rroot-810
+          - generic [ref=e276]: Bill and Dr. Bob Start A.A.
+        - link "William Birney's Interview of Frank Buchman" [ref=e277] [cursor=pointer]:
+          - /url: /content/rroot-840
+          - generic [ref=e278]: William Birney's Interview of Frank Buchman
+        - link "Reinhold Niebuhr's \"Hitler and Buchman\" Article" [ref=e279] [cursor=pointer]:
+          - /url: /content/rroot-870
+          - generic [ref=e280]: Reinhold Niebuhr's "Hitler and Buchman" Article
+        - link "Rev. Ironside's Sermon On Buchmanism" [ref=e281] [cursor=pointer]:
+          - /url: /content/rroot-900
+          - generic [ref=e282]: Rev. Ironside's Sermon On Buchmanism
+        - link "Review of Garth Lean's book, On The Tail of a Comet" [ref=e283] [cursor=pointer]:
+          - /url: /content/rroot-930
+          - generic [ref=e284]: Review of Garth Lean's book, On The Tail of a Comet
+        - link "Religious Roots — Footnotes" [ref=e285] [cursor=pointer]:
+          - /url: /content/rroot-960
+          - generic [ref=e286]: Religious Roots — Footnotes
+        - link "Religious Roots — Bibliography" [ref=e287] [cursor=pointer]:
+          - /url: /content/rroot-990
+          - generic [ref=e288]: Religious Roots — Bibliography
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - heading "Supporting Documents" [level=2] [ref=e291]
+        - generic [ref=e292]: 4 articles
+      - generic [ref=e293]:
+        - link "Links — A Zillion Links to Everything" [ref=e294] [cursor=pointer]:
+          - /url: /content/links
+          - generic [ref=e295]: Links — A Zillion Links to Everything
+        - link "Bibliography" [ref=e296] [cursor=pointer]:
+          - /url: /content/bibliography
+          - generic [ref=e297]: Bibliography
+        - link "Definitions of Some Commonly-Used A.A. Words" [ref=e298] [cursor=pointer]:
+          - /url: /content/definitions
+          - generic [ref=e299]: Definitions of Some Commonly-Used A.A. Words
+        - link "Posts to the A.A. Thread on Rick Ross' Web Site" [ref=e300] [cursor=pointer]:
+          - /url: /content/rross-aa01
+          - generic [ref=e301]: Posts to the A.A. Thread on Rick Ross' Web Site
+    - generic [ref=e302]:
+      - generic [ref=e303]:
+        - heading "Miscellaneous" [level=2] [ref=e304]
+        - generic [ref=e305]: 5 articles
+      - generic [ref=e306]:
+        - link "Random Thoughts" [ref=e307] [cursor=pointer]:
+          - /url: /content/random
+          - generic [ref=e308]: Random Thoughts
+        - link "Wish List" [ref=e309] [cursor=pointer]:
+          - /url: /content/wishlist
+          - generic [ref=e310]: Wish List
+        - link "Jokes" [ref=e311] [cursor=pointer]:
+          - /url: /content/jokes
+          - generic [ref=e312]: Jokes
+        - link "Great Moments in Religion — Jerry Falwell" [ref=e313] [cursor=pointer]:
+          - /url: /content/greatmoments
+          - generic [ref=e314]: Great Moments in Religion — Jerry Falwell
+        - link "A Memorial Page on Rev. Sun Myung Moon" [ref=e315] [cursor=pointer]:
+          - /url: /content/moon
+          - generic [ref=e316]: A Memorial Page on Rev. Sun Myung Moon
+    - generic [ref=e318]:
+      - generic [ref=e319]:
+        - heading "Letters — We Get Lots of Mail..." [level=2] [ref=e320]
+        - generic [ref=e321]: 428 volumes
+      - paragraph [ref=e322]: Hundreds of volumes of reader correspondence — debates, testimonials, research, and dialogue.
+      - generic [ref=e323]:
+        - link "Letters I" [ref=e324] [cursor=pointer]:
+          - /url: /content/letters-1
+        - link "Letters II" [ref=e325] [cursor=pointer]:
+          - /url: /content/letters-2
+        - link "Letters III" [ref=e326] [cursor=pointer]:
+          - /url: /content/letters-3
+        - link "Letters IV" [ref=e327] [cursor=pointer]:
+          - /url: /content/letters-4
+        - link "Letters V" [ref=e328] [cursor=pointer]:
+          - /url: /content/letters-5
+        - link "Letters VI" [ref=e329] [cursor=pointer]:
+          - /url: /content/letters-6
+        - link "Letters VII" [ref=e330] [cursor=pointer]:
+          - /url: /content/letters-7
+        - link "Letters VIII" [ref=e331] [cursor=pointer]:
+          - /url: /content/letters-8
+        - link "Letters IX" [ref=e332] [cursor=pointer]:
+          - /url: /content/letters-9
+        - link "Letters X" [ref=e333] [cursor=pointer]:
+          - /url: /content/letters-10
+        - link "Letters XI" [ref=e334] [cursor=pointer]:
+          - /url: /content/letters-11
+        - link "Letters XII" [ref=e335] [cursor=pointer]:
+          - /url: /content/letters-12
+        - link "Letters XIII" [ref=e336] [cursor=pointer]:
+          - /url: /content/letters-13
+        - link "Letters XIV" [ref=e337] [cursor=pointer]:
+          - /url: /content/letters-14
+        - link "Letters XV" [ref=e338] [cursor=pointer]:
+          - /url: /content/letters-15
+        - link "Letters XVI" [ref=e339] [cursor=pointer]:
+          - /url: /content/letters-16
+        - link "Letters XVII" [ref=e340] [cursor=pointer]:
+          - /url: /content/letters-17
+        - link "Letters XVIII" [ref=e341] [cursor=pointer]:
+          - /url: /content/letters-18
+        - link "Letters XIX" [ref=e342] [cursor=pointer]:
+          - /url: /content/letters-19
+        - link "Letters XX" [ref=e343] [cursor=pointer]:
+          - /url: /content/letters-20
+        - link "Letters XXI" [ref=e344] [cursor=pointer]:
+          - /url: /content/letters-21
+        - link "Letters XXII" [ref=e345] [cursor=pointer]:
+          - /url: /content/letters-22
+        - link "Letters XXIII" [ref=e346] [cursor=pointer]:
+          - /url: /content/letters-23
+        - link "Letters XXIV" [ref=e347] [cursor=pointer]:
+          - /url: /content/letters-24
+        - link "Letters XXV" [ref=e348] [cursor=pointer]:
+          - /url: /content/letters-25
+        - link "Letters XXVI" [ref=e349] [cursor=pointer]:
+          - /url: /content/letters-26
+        - link "Letters XXVII" [ref=e350] [cursor=pointer]:
+          - /url: /content/letters-27
+        - link "Letters XXVIII" [ref=e351] [cursor=pointer]:
+          - /url: /content/letters-28
+        - link "Letters XXIX" [ref=e352] [cursor=pointer]:
+          - /url: /content/letters-29
+        - link "Letters XXX" [ref=e353] [cursor=pointer]:
+          - /url: /content/letters-30
+        - link "Letters XXXI" [ref=e354] [cursor=pointer]:
+          - /url: /content/letters-31
+        - link "Letters XXXII" [ref=e355] [cursor=pointer]:
+          - /url: /content/letters-32
+        - link "Letters XXXIII" [ref=e356] [cursor=pointer]:
+          - /url: /content/letters-33
+        - link "Letters XXXIV" [ref=e357] [cursor=pointer]:
+          - /url: /content/letters-34
+        - link "Letters XXXV" [ref=e358] [cursor=pointer]:
+          - /url: /content/letters-35
+        - link "Letters XXXVI" [ref=e359] [cursor=pointer]:
+          - /url: /content/letters-36
+        - link "Letters XXXVII" [ref=e360] [cursor=pointer]:
+          - /url: /content/letters-37
+        - link "Letters XXXVIII" [ref=e361] [cursor=pointer]:
+          - /url: /content/letters-38
+        - link "Letters XXXIX" [ref=e362] [cursor=pointer]:
+          - /url: /content/letters-39
+        - link "Letters XL" [ref=e363] [cursor=pointer]:
+          - /url: /content/letters-40
+        - link "Letters XLI" [ref=e364] [cursor=pointer]:
+          - /url: /content/letters-41
+        - link "Letters XLII" [ref=e365] [cursor=pointer]:
+          - /url: /content/letters-42
+        - link "Letters XLIII" [ref=e366] [cursor=pointer]:
+          - /url: /content/letters-43
+        - link "Letters XLIV" [ref=e367] [cursor=pointer]:
+          - /url: /content/letters-44
+        - link "Letters XLV" [ref=e368] [cursor=pointer]:
+          - /url: /content/letters-45
+        - link "Letters XLVI" [ref=e369] [cursor=pointer]:
+          - /url: /content/letters-46
+        - link "Letters XLVII" [ref=e370] [cursor=pointer]:
+          - /url: /content/letters-47
+        - link "Letters XLVIII" [ref=e371] [cursor=pointer]:
+          - /url: /content/letters-48
+        - link "Letters XLIX" [ref=e372] [cursor=pointer]:
+          - /url: /content/letters-49
+        - link "Letters L" [ref=e373] [cursor=pointer]:
+          - /url: /content/letters-50
+        - link "Letters LI" [ref=e374] [cursor=pointer]:
+          - /url: /content/letters-51
+        - link "Letters LII" [ref=e375] [cursor=pointer]:
+          - /url: /content/letters-52
+        - link "Letters LIII" [ref=e376] [cursor=pointer]:
+          - /url: /content/letters-53
+        - link "Letters LIV" [ref=e377] [cursor=pointer]:
+          - /url: /content/letters-54
+        - link "Letters LV" [ref=e378] [cursor=pointer]:
+          - /url: /content/letters-55
+        - link "Letters LVI" [ref=e379] [cursor=pointer]:
+          - /url: /content/letters-56
+        - link "Letters LVII" [ref=e380] [cursor=pointer]:
+          - /url: /content/letters-57
+        - link "Letters LVIII" [ref=e381] [cursor=pointer]:
+          - /url: /content/letters-58
+        - link "Letters LIX" [ref=e382] [cursor=pointer]:
+          - /url: /content/letters-59
+        - link "Letters LX" [ref=e383] [cursor=pointer]:
+          - /url: /content/letters-60
+        - link "Letters LXI" [ref=e384] [cursor=pointer]:
+          - /url: /content/letters-61
+        - link "Letters LXII" [ref=e385] [cursor=pointer]:
+          - /url: /content/letters-62
+        - link "Letters LXIII" [ref=e386] [cursor=pointer]:
+          - /url: /content/letters-63
+        - link "Letters LXIV" [ref=e387] [cursor=pointer]:
+          - /url: /content/letters-64
+        - link "Letters LXV" [ref=e388] [cursor=pointer]:
+          - /url: /content/letters-65
+        - link "Letters LXVI" [ref=e389] [cursor=pointer]:
+          - /url: /content/letters-66
+        - link "Letters LXVII" [ref=e390] [cursor=pointer]:
+          - /url: /content/letters-67
+        - link "Letters LXVIII" [ref=e391] [cursor=pointer]:
+          - /url: /content/letters-68
+        - link "Letters LXIX" [ref=e392] [cursor=pointer]:
+          - /url: /content/letters-69
+        - link "Letters LXX" [ref=e393] [cursor=pointer]:
+          - /url: /content/letters-70
+        - link "Letters LXXI" [ref=e394] [cursor=pointer]:
+          - /url: /content/letters-71
+        - link "Letters LXXII" [ref=e395] [cursor=pointer]:
+          - /url: /content/letters-72
+        - link "Letters LXXIII" [ref=e396] [cursor=pointer]:
+          - /url: /content/letters-73
+        - link "Letters LXXIV" [ref=e397] [cursor=pointer]:
+          - /url: /content/letters-74
+        - link "Letters LXXV" [ref=e398] [cursor=pointer]:
+          - /url: /content/letters-75
+        - link "Letters LXXVI" [ref=e399] [cursor=pointer]:
+          - /url: /content/letters-76
+        - link "Letters LXXVII" [ref=e400] [cursor=pointer]:
+          - /url: /content/letters-77
+        - link "Letters LXXVIII" [ref=e401] [cursor=pointer]:
+          - /url: /content/letters-78
+        - link "Letters LXXIX" [ref=e402] [cursor=pointer]:
+          - /url: /content/letters-79
+        - link "Letters LXXX" [ref=e403] [cursor=pointer]:
+          - /url: /content/letters-80
+        - link "Letters LXXXI" [ref=e404] [cursor=pointer]:
+          - /url: /content/letters-81
+        - link "Letters LXXXII" [ref=e405] [cursor=pointer]:
+          - /url: /content/letters-82
+        - link "Letters LXXXIII" [ref=e406] [cursor=pointer]:
+          - /url: /content/letters-83
+        - link "Letters LXXXIV" [ref=e407] [cursor=pointer]:
+          - /url: /content/letters-84
+        - link "Letters LXXXV" [ref=e408] [cursor=pointer]:
+          - /url: /content/letters-85
+        - link "Letters LXXXVI" [ref=e409] [cursor=pointer]:
+          - /url: /content/letters-86
+        - link "Letters LXXXVII" [ref=e410] [cursor=pointer]:
+          - /url: /content/letters-87
+        - link "Letters LXXXVIII" [ref=e411] [cursor=pointer]:
+          - /url: /content/letters-88
+        - link "Letters LXXXIX" [ref=e412] [cursor=pointer]:
+          - /url: /content/letters-89
+        - link "Letters XC" [ref=e413] [cursor=pointer]:
+          - /url: /content/letters-90
+        - link "Letters XCI" [ref=e414] [cursor=pointer]:
+          - /url: /content/letters-91
+        - link "Letters XCII" [ref=e415] [cursor=pointer]:
+          - /url: /content/letters-92
+        - link "Letters XCIII" [ref=e416] [cursor=pointer]:
+          - /url: /content/letters-93
+        - link "Letters XCIV" [ref=e417] [cursor=pointer]:
+          - /url: /content/letters-94
+        - link "Letters XCV" [ref=e418] [cursor=pointer]:
+          - /url: /content/letters-95
+        - link "Letters XCVI" [ref=e419] [cursor=pointer]:
+          - /url: /content/letters-96
+        - link "Letters XCVII" [ref=e420] [cursor=pointer]:
+          - /url: /content/letters-97
+        - link "Letters XCVIII" [ref=e421] [cursor=pointer]:
+          - /url: /content/letters-98
+        - link "Letters XCIX" [ref=e422] [cursor=pointer]:
+          - /url: /content/letters-99
+        - link "Letters C" [ref=e423] [cursor=pointer]:
+          - /url: /content/letters-100
+        - link "Letters CI" [ref=e424] [cursor=pointer]:
+          - /url: /content/letters-101
+        - link "Letters CII" [ref=e425] [cursor=pointer]:
+          - /url: /content/letters-102
+        - link "Letters CIII" [ref=e426] [cursor=pointer]:
+          - /url: /content/letters-103
+        - link "Letters CIV" [ref=e427] [cursor=pointer]:
+          - /url: /content/letters-104
+        - link "Letters CV" [ref=e428] [cursor=pointer]:
+          - /url: /content/letters-105
+        - link "Letters CVI" [ref=e429] [cursor=pointer]:
+          - /url: /content/letters-106
+        - link "Letters CVII" [ref=e430] [cursor=pointer]:
+          - /url: /content/letters-107
+        - link "Letters CVIII" [ref=e431] [cursor=pointer]:
+          - /url: /content/letters-108
+        - link "Letters CIX" [ref=e432] [cursor=pointer]:
+          - /url: /content/letters-109
+        - link "Letters CX" [ref=e433] [cursor=pointer]:
+          - /url: /content/letters-110
+        - link "Letters CXI" [ref=e434] [cursor=pointer]:
+          - /url: /content/letters-111
+        - link "Letters CXII" [ref=e435] [cursor=pointer]:
+          - /url: /content/letters-112
+        - link "Letters CXIII" [ref=e436] [cursor=pointer]:
+          - /url: /content/letters-113
+        - link "Letters CXIV" [ref=e437] [cursor=pointer]:
+          - /url: /content/letters-114
+        - link "Letters CXV" [ref=e438] [cursor=pointer]:
+          - /url: /content/letters-115
+        - link "Letters CXVI" [ref=e439] [cursor=pointer]:
+          - /url: /content/letters-116
+        - link "Letters CXVII" [ref=e440] [cursor=pointer]:
+          - /url: /content/letters-117
+        - link "Letters CXVIII" [ref=e441] [cursor=pointer]:
+          - /url: /content/letters-118
+        - link "Letters CXIX" [ref=e442] [cursor=pointer]:
+          - /url: /content/letters-119
+        - link "Letters CXX" [ref=e443] [cursor=pointer]:
+          - /url: /content/letters-120
+        - link "Letters CXXI" [ref=e444] [cursor=pointer]:
+          - /url: /content/letters-121
+        - link "Letters CXXII" [ref=e445] [cursor=pointer]:
+          - /url: /content/letters-122
+        - link "Letters CXXIII" [ref=e446] [cursor=pointer]:
+          - /url: /content/letters-123
+        - link "Letters CXXIV" [ref=e447] [cursor=pointer]:
+          - /url: /content/letters-124
+        - link "Letters CXXV" [ref=e448] [cursor=pointer]:
+          - /url: /content/letters-125
+        - link "Letters CXXVI" [ref=e449] [cursor=pointer]:
+          - /url: /content/letters-126
+        - link "Letters CXXVII" [ref=e450] [cursor=pointer]:
+          - /url: /content/letters-127
+        - link "Letters CXXVIII" [ref=e451] [cursor=pointer]:
+          - /url: /content/letters-128
+        - link "Letters CXXIX" [ref=e452] [cursor=pointer]:
+          - /url: /content/letters-129
+        - link "Letters CXXX" [ref=e453] [cursor=pointer]:
+          - /url: /content/letters-130
+        - link "Letters CXXXI" [ref=e454] [cursor=pointer]:
+          - /url: /content/letters-131
+        - link "Letters CXXXII" [ref=e455] [cursor=pointer]:
+          - /url: /content/letters-132
+        - link "Letters CXXXIII" [ref=e456] [cursor=pointer]:
+          - /url: /content/letters-133
+        - link "Letters CXXXIV" [ref=e457] [cursor=pointer]:
+          - /url: /content/letters-134
+        - link "Letters CXXXV" [ref=e458] [cursor=pointer]:
+          - /url: /content/letters-135
+        - link "Letters CXXXVI" [ref=e459] [cursor=pointer]:
+          - /url: /content/letters-136
+        - link "Letters CXXXVII" [ref=e460] [cursor=pointer]:
+          - /url: /content/letters-137
+        - link "Letters CXXXVIII" [ref=e461] [cursor=pointer]:
+          - /url: /content/letters-138
+        - link "Letters CXXXIX" [ref=e462] [cursor=pointer]:
+          - /url: /content/letters-139
+        - link "Letters CXL" [ref=e463] [cursor=pointer]:
+          - /url: /content/letters-140
+        - link "Letters CXLI" [ref=e464] [cursor=pointer]:
+          - /url: /content/letters-141
+        - link "Letters CXLII" [ref=e465] [cursor=pointer]:
+          - /url: /content/letters-142
+        - link "Letters CXLIII" [ref=e466] [cursor=pointer]:
+          - /url: /content/letters-143
+        - link "Letters CXLIV" [ref=e467] [cursor=pointer]:
+          - /url: /content/letters-144
+        - link "Letters CXLV" [ref=e468] [cursor=pointer]:
+          - /url: /content/letters-145
+        - link "Letters CXLVI" [ref=e469] [cursor=pointer]:
+          - /url: /content/letters-146
+        - link "Letters CXLVII" [ref=e470] [cursor=pointer]:
+          - /url: /content/letters-147
+        - link "Letters CXLVIII" [ref=e471] [cursor=pointer]:
+          - /url: /content/letters-148
+        - link "Letters CXLIX" [ref=e472] [cursor=pointer]:
+          - /url: /content/letters-149
+        - link "Letters CL" [ref=e473] [cursor=pointer]:
+          - /url: /content/letters-150
+        - link "Letters CLI" [ref=e474] [cursor=pointer]:
+          - /url: /content/letters-151
+        - link "Letters CLII" [ref=e475] [cursor=pointer]:
+          - /url: /content/letters-152
+        - link "Letters CLIII" [ref=e476] [cursor=pointer]:
+          - /url: /content/letters-153
+        - link "Letters CLIV" [ref=e477] [cursor=pointer]:
+          - /url: /content/letters-154
+        - link "Letters CLV" [ref=e478] [cursor=pointer]:
+          - /url: /content/letters-155
+        - link "Letters CLVI" [ref=e479] [cursor=pointer]:
+          - /url: /content/letters-156
+        - link "Letters CLVII" [ref=e480] [cursor=pointer]:
+          - /url: /content/letters-157
+        - link "Letters CLVIII" [ref=e481] [cursor=pointer]:
+          - /url: /content/letters-158
+        - link "Letters CLIX" [ref=e482] [cursor=pointer]:
+          - /url: /content/letters-159
+        - link "Letters CLX" [ref=e483] [cursor=pointer]:
+          - /url: /content/letters-160
+        - link "Letters CLXI" [ref=e484] [cursor=pointer]:
+          - /url: /content/letters-161
+        - link "Letters CLXII" [ref=e485] [cursor=pointer]:
+          - /url: /content/letters-162
+        - link "Letters CLXIII" [ref=e486] [cursor=pointer]:
+          - /url: /content/letters-163
+        - link "Letters CLXIV" [ref=e487] [cursor=pointer]:
+          - /url: /content/letters-164
+        - link "Letters CLXV" [ref=e488] [cursor=pointer]:
+          - /url: /content/letters-165
+        - link "Letters CLXVI" [ref=e489] [cursor=pointer]:
+          - /url: /content/letters-166
+        - link "Letters CLXVII" [ref=e490] [cursor=pointer]:
+          - /url: /content/letters-167
+        - link "Letters CLXVIII" [ref=e491] [cursor=pointer]:
+          - /url: /content/letters-168
+        - link "Letters CLXIX" [ref=e492] [cursor=pointer]:
+          - /url: /content/letters-169
+        - link "Letters CLXX" [ref=e493] [cursor=pointer]:
+          - /url: /content/letters-170
+        - link "Letters CLXXI" [ref=e494] [cursor=pointer]:
+          - /url: /content/letters-171
+        - link "Letters CLXXII" [ref=e495] [cursor=pointer]:
+          - /url: /content/letters-172
+        - link "Letters CLXXIII" [ref=e496] [cursor=pointer]:
+          - /url: /content/letters-173
+        - link "Letters CLXXIV" [ref=e497] [cursor=pointer]:
+          - /url: /content/letters-174
+        - link "Letters CLXXV" [ref=e498] [cursor=pointer]:
+          - /url: /content/letters-175
+        - link "Letters CLXXVI" [ref=e499] [cursor=pointer]:
+          - /url: /content/letters-176
+        - link "Letters CLXXVII" [ref=e500] [cursor=pointer]:
+          - /url: /content/letters-177
+        - link "Letters CLXXVIII" [ref=e501] [cursor=pointer]:
+          - /url: /content/letters-178
+        - link "Letters CLXXIX" [ref=e502] [cursor=pointer]:
+          - /url: /content/letters-179
+        - link "Letters CLXXX" [ref=e503] [cursor=pointer]:
+          - /url: /content/letters-180
+        - link "Letters CLXXXI" [ref=e504] [cursor=pointer]:
+          - /url: /content/letters-181
+        - link "Letters CLXXXII" [ref=e505] [cursor=pointer]:
+          - /url: /content/letters-182
+        - link "Letters CLXXXIII" [ref=e506] [cursor=pointer]:
+          - /url: /content/letters-183
+        - link "Letters CLXXXIV" [ref=e507] [cursor=pointer]:
+          - /url: /content/letters-184
+        - link "Letters CLXXXV" [ref=e508] [cursor=pointer]:
+          - /url: /content/letters-185
+        - link "Letters CLXXXVI" [ref=e509] [cursor=pointer]:
+          - /url: /content/letters-186
+        - link "Letters CLXXXVII" [ref=e510] [cursor=pointer]:
+          - /url: /content/letters-187
+        - link "Letters CLXXXVIII" [ref=e511] [cursor=pointer]:
+          - /url: /content/letters-188
+        - link "Letters CLXXXIX" [ref=e512] [cursor=pointer]:
+          - /url: /content/letters-189
+        - link "Letters CXC" [ref=e513] [cursor=pointer]:
+          - /url: /content/letters-190
+        - link "Letters CXCI" [ref=e514] [cursor=pointer]:
+          - /url: /content/letters-191
+        - link "Letters CXCII" [ref=e515] [cursor=pointer]:
+          - /url: /content/letters-192
+        - link "Letters CXCIII" [ref=e516] [cursor=pointer]:
+          - /url: /content/letters-193
+        - link "Letters CXCIV" [ref=e517] [cursor=pointer]:
+          - /url: /content/letters-194
+        - link "Letters CXCV" [ref=e518] [cursor=pointer]:
+          - /url: /content/letters-195
+        - link "Letters CXCVI" [ref=e519] [cursor=pointer]:
+          - /url: /content/letters-196
+        - link "Letters CXCVII" [ref=e520] [cursor=pointer]:
+          - /url: /content/letters-197
+        - link "Letters CXCVIII" [ref=e521] [cursor=pointer]:
+          - /url: /content/letters-198
+        - link "Letters CXCIX" [ref=e522] [cursor=pointer]:
+          - /url: /content/letters-199
+        - link "Letters CC" [ref=e523] [cursor=pointer]:
+          - /url: /content/letters-200
+        - link "Letters CCI" [ref=e524] [cursor=pointer]:
+          - /url: /content/letters-201
+        - link "Letters CCII" [ref=e525] [cursor=pointer]:
+          - /url: /content/letters-202
+        - link "Letters CCIII" [ref=e526] [cursor=pointer]:
+          - /url: /content/letters-203
+        - link "Letters CCIV" [ref=e527] [cursor=pointer]:
+          - /url: /content/letters-204
+        - link "Letters CCV" [ref=e528] [cursor=pointer]:
+          - /url: /content/letters-205
+        - link "Letters CCVI" [ref=e529] [cursor=pointer]:
+          - /url: /content/letters-206
+        - link "Letters CCVII" [ref=e530] [cursor=pointer]:
+          - /url: /content/letters-207
+        - link "Letters CCVIII" [ref=e531] [cursor=pointer]:
+          - /url: /content/letters-208
+        - link "Letters CCIX" [ref=e532] [cursor=pointer]:
+          - /url: /content/letters-209
+        - link "Letters CCX" [ref=e533] [cursor=pointer]:
+          - /url: /content/letters-210
+        - link "Letters CCXI" [ref=e534] [cursor=pointer]:
+          - /url: /content/letters-211
+        - link "Letters CCXII" [ref=e535] [cursor=pointer]:
+          - /url: /content/letters-212
+        - link "Letters CCXIII" [ref=e536] [cursor=pointer]:
+          - /url: /content/letters-213
+        - link "Letters CCXIV" [ref=e537] [cursor=pointer]:
+          - /url: /content/letters-214
+        - link "Letters CCXV" [ref=e538] [cursor=pointer]:
+          - /url: /content/letters-215
+        - link "Letters CCXVI" [ref=e539] [cursor=pointer]:
+          - /url: /content/letters-216
+        - link "Letters CCXVII" [ref=e540] [cursor=pointer]:
+          - /url: /content/letters-217
+        - link "Letters CCXVIII" [ref=e541] [cursor=pointer]:
+          - /url: /content/letters-218
+        - link "Letters CCXIX" [ref=e542] [cursor=pointer]:
+          - /url: /content/letters-219
+        - link "Letters CCXX" [ref=e543] [cursor=pointer]:
+          - /url: /content/letters-220
+        - link "Letters CCXXI" [ref=e544] [cursor=pointer]:
+          - /url: /content/letters-221
+        - link "Letters CCXXII" [ref=e545] [cursor=pointer]:
+          - /url: /content/letters-222
+        - link "Letters CCXXIII" [ref=e546] [cursor=pointer]:
+          - /url: /content/letters-223
+        - link "Letters CCXXIV" [ref=e547] [cursor=pointer]:
+          - /url: /content/letters-224
+        - link "Letters CCXXV" [ref=e548] [cursor=pointer]:
+          - /url: /content/letters-225
+        - link "Letters CCXXVI" [ref=e549] [cursor=pointer]:
+          - /url: /content/letters-226
+        - link "Letters CCXXVII" [ref=e550] [cursor=pointer]:
+          - /url: /content/letters-227
+        - link "Letters CCXXVIII" [ref=e551] [cursor=pointer]:
+          - /url: /content/letters-228
+        - link "Letters CCXXIX" [ref=e552] [cursor=pointer]:
+          - /url: /content/letters-229
+        - link "Letters CCXXX" [ref=e553] [cursor=pointer]:
+          - /url: /content/letters-230
+        - link "Letters CCXXXI" [ref=e554] [cursor=pointer]:
+          - /url: /content/letters-231
+        - link "Letters CCXXXII" [ref=e555] [cursor=pointer]:
+          - /url: /content/letters-232
+        - link "Letters CCXXXIII" [ref=e556] [cursor=pointer]:
+          - /url: /content/letters-233
+        - link "Letters CCXXXIV" [ref=e557] [cursor=pointer]:
+          - /url: /content/letters-234
+        - link "Letters CCXXXV" [ref=e558] [cursor=pointer]:
+          - /url: /content/letters-235
+        - link "Letters CCXXXVI" [ref=e559] [cursor=pointer]:
+          - /url: /content/letters-236
+        - link "Letters CCXXXVII" [ref=e560] [cursor=pointer]:
+          - /url: /content/letters-237
+        - link "Letters CCXXXVIII" [ref=e561] [cursor=pointer]:
+          - /url: /content/letters-238
+        - link "Letters CCXXXIX" [ref=e562] [cursor=pointer]:
+          - /url: /content/letters-239
+        - link "Letters CCXL" [ref=e563] [cursor=pointer]:
+          - /url: /content/letters-240
+        - link "Letters CCXLI" [ref=e564] [cursor=pointer]:
+          - /url: /content/letters-241
+        - link "Letters CCXLII" [ref=e565] [cursor=pointer]:
+          - /url: /content/letters-242
+        - link "Letters CCXLIII" [ref=e566] [cursor=pointer]:
+          - /url: /content/letters-243
+        - link "Letters CCXLIV" [ref=e567] [cursor=pointer]:
+          - /url: /content/letters-244
+        - link "Letters CCXLV" [ref=e568] [cursor=pointer]:
+          - /url: /content/letters-245
+        - link "Letters CCXLVI" [ref=e569] [cursor=pointer]:
+          - /url: /content/letters-246
+        - link "Letters CCXLVII" [ref=e570] [cursor=pointer]:
+          - /url: /content/letters-247
+        - link "Letters CCXLVIII" [ref=e571] [cursor=pointer]:
+          - /url: /content/letters-248
+        - link "Letters CCXLIX" [ref=e572] [cursor=pointer]:
+          - /url: /content/letters-249
+        - link "Letters CCL" [ref=e573] [cursor=pointer]:
+          - /url: /content/letters-250
+        - link "Letters CCLI" [ref=e574] [cursor=pointer]:
+          - /url: /content/letters-251
+        - link "Letters CCLII" [ref=e575] [cursor=pointer]:
+          - /url: /content/letters-252
+        - link "Letters CCLIII" [ref=e576] [cursor=pointer]:
+          - /url: /content/letters-253
+        - link "Letters CCLIV" [ref=e577] [cursor=pointer]:
+          - /url: /content/letters-254
+        - link "Letters CCLV" [ref=e578] [cursor=pointer]:
+          - /url: /content/letters-255
+        - link "Letters CCLVI" [ref=e579] [cursor=pointer]:
+          - /url: /content/letters-256
+        - link "Letters CCLVII" [ref=e580] [cursor=pointer]:
+          - /url: /content/letters-257
+        - link "Letters CCLVIII" [ref=e581] [cursor=pointer]:
+          - /url: /content/letters-258
+        - link "Letters CCLIX" [ref=e582] [cursor=pointer]:
+          - /url: /content/letters-259
+        - link "Letters CCLX" [ref=e583] [cursor=pointer]:
+          - /url: /content/letters-260
+        - link "Letters CCLXI" [ref=e584] [cursor=pointer]:
+          - /url: /content/letters-261
+        - link "Letters CCLXII" [ref=e585] [cursor=pointer]:
+          - /url: /content/letters-262
+        - link "Letters CCLXIII" [ref=e586] [cursor=pointer]:
+          - /url: /content/letters-263
+        - link "Letters CCLXIV" [ref=e587] [cursor=pointer]:
+          - /url: /content/letters-264
+        - link "Letters CCLXV" [ref=e588] [cursor=pointer]:
+          - /url: /content/letters-265
+        - link "Letters CCLXVI" [ref=e589] [cursor=pointer]:
+          - /url: /content/letters-266
+        - link "Letters CCLXVII" [ref=e590] [cursor=pointer]:
+          - /url: /content/letters-267
+        - link "Letters CCLXVIII" [ref=e591] [cursor=pointer]:
+          - /url: /content/letters-268
+        - link "Letters CCLXIX" [ref=e592] [cursor=pointer]:
+          - /url: /content/letters-269
+        - link "Letters CCLXX" [ref=e593] [cursor=pointer]:
+          - /url: /content/letters-270
+        - link "Letters CCLXXI" [ref=e594] [cursor=pointer]:
+          - /url: /content/letters-271
+        - link "Letters CCLXXII" [ref=e595] [cursor=pointer]:
+          - /url: /content/letters-272
+        - link "Letters CCLXXIII" [ref=e596] [cursor=pointer]:
+          - /url: /content/letters-273
+        - link "Letters CCLXXIV" [ref=e597] [cursor=pointer]:
+          - /url: /content/letters-274
+        - link "Letters CCLXXV" [ref=e598] [cursor=pointer]:
+          - /url: /content/letters-275
+        - link "Letters CCLXXVI" [ref=e599] [cursor=pointer]:
+          - /url: /content/letters-276
+        - link "Letters CCLXXVII" [ref=e600] [cursor=pointer]:
+          - /url: /content/letters-277
+        - link "Letters CCLXXVIII" [ref=e601] [cursor=pointer]:
+          - /url: /content/letters-278
+        - link "Letters CCLXXIX" [ref=e602] [cursor=pointer]:
+          - /url: /content/letters-279
+        - link "Letters CCLXXX" [ref=e603] [cursor=pointer]:
+          - /url: /content/letters-280
+        - link "Letters CCLXXXI" [ref=e604] [cursor=pointer]:
+          - /url: /content/letters-281
+        - link "Letters CCLXXXII" [ref=e605] [cursor=pointer]:
+          - /url: /content/letters-282
+        - link "Letters CCLXXXIII" [ref=e606] [cursor=pointer]:
+          - /url: /content/letters-283
+        - link "Letters CCLXXXIV" [ref=e607] [cursor=pointer]:
+          - /url: /content/letters-284
+        - link "Letters CCLXXXV" [ref=e608] [cursor=pointer]:
+          - /url: /content/letters-285
+        - link "Letters CCLXXXVI" [ref=e609] [cursor=pointer]:
+          - /url: /content/letters-286
+        - link "Letters CCLXXXVII" [ref=e610] [cursor=pointer]:
+          - /url: /content/letters-287
+        - link "Letters CCLXXXVIII" [ref=e611] [cursor=pointer]:
+          - /url: /content/letters-288
+        - link "Letters CCLXXXIX" [ref=e612] [cursor=pointer]:
+          - /url: /content/letters-289
+        - link "Letters CCXC" [ref=e613] [cursor=pointer]:
+          - /url: /content/letters-290
+        - link "Letters CCXCI" [ref=e614] [cursor=pointer]:
+          - /url: /content/letters-291
+        - link "Letters CCXCII" [ref=e615] [cursor=pointer]:
+          - /url: /content/letters-292
+        - link "Letters CCXCIII" [ref=e616] [cursor=pointer]:
+          - /url: /content/letters-293
+        - link "Letters CCXCIV" [ref=e617] [cursor=pointer]:
+          - /url: /content/letters-294
+        - link "Letters CCXCV" [ref=e618] [cursor=pointer]:
+          - /url: /content/letters-295
+        - link "Letters CCXCVI" [ref=e619] [cursor=pointer]:
+          - /url: /content/letters-296
+        - link "Letters CCXCVII" [ref=e620] [cursor=pointer]:
+          - /url: /content/letters-297
+        - link "Letters CCXCVIII" [ref=e621] [cursor=pointer]:
+          - /url: /content/letters-298
+        - link "Letters CCXCIX" [ref=e622] [cursor=pointer]:
+          - /url: /content/letters-299
+        - link "Letters CCC" [ref=e623] [cursor=pointer]:
+          - /url: /content/letters-300
+        - link "Letters CCCI" [ref=e624] [cursor=pointer]:
+          - /url: /content/letters-301
+        - link "Letters CCCII" [ref=e625] [cursor=pointer]:
+          - /url: /content/letters-302
+        - link "Letters CCCIII" [ref=e626] [cursor=pointer]:
+          - /url: /content/letters-303
+        - link "Letters CCCIV" [ref=e627] [cursor=pointer]:
+          - /url: /content/letters-304
+        - link "Letters CCCV" [ref=e628] [cursor=pointer]:
+          - /url: /content/letters-305
+        - link "Letters CCCVI" [ref=e629] [cursor=pointer]:
+          - /url: /content/letters-306
+        - link "Letters CCCVII" [ref=e630] [cursor=pointer]:
+          - /url: /content/letters-307
+        - link "Letters CCCVIII" [ref=e631] [cursor=pointer]:
+          - /url: /content/letters-308
+        - link "Letters CCCIX" [ref=e632] [cursor=pointer]:
+          - /url: /content/letters-309
+        - link "Letters CCCX" [ref=e633] [cursor=pointer]:
+          - /url: /content/letters-310
+        - link "Letters CCCXI" [ref=e634] [cursor=pointer]:
+          - /url: /content/letters-311
+        - link "Letters CCCXII" [ref=e635] [cursor=pointer]:
+          - /url: /content/letters-312
+        - link "Letters CCCXIII" [ref=e636] [cursor=pointer]:
+          - /url: /content/letters-313
+        - link "Letters CCCXIV" [ref=e637] [cursor=pointer]:
+          - /url: /content/letters-314
+        - link "Letters CCCXV" [ref=e638] [cursor=pointer]:
+          - /url: /content/letters-315
+        - link "Letters CCCXVI" [ref=e639] [cursor=pointer]:
+          - /url: /content/letters-316
+        - link "Letters CCCXVII" [ref=e640] [cursor=pointer]:
+          - /url: /content/letters-317
+        - link "Letters CCCXVIII" [ref=e641] [cursor=pointer]:
+          - /url: /content/letters-318
+        - link "Letters CCCXIX" [ref=e642] [cursor=pointer]:
+          - /url: /content/letters-319
+        - link "Letters CCCXX" [ref=e643] [cursor=pointer]:
+          - /url: /content/letters-320
+        - link "Letters CCCXXI" [ref=e644] [cursor=pointer]:
+          - /url: /content/letters-321
+        - link "Letters CCCXXII" [ref=e645] [cursor=pointer]:
+          - /url: /content/letters-322
+        - link "Letters CCCXXIII" [ref=e646] [cursor=pointer]:
+          - /url: /content/letters-323
+        - link "Letters CCCXXIV" [ref=e647] [cursor=pointer]:
+          - /url: /content/letters-324
+        - link "Letters CCCXXV" [ref=e648] [cursor=pointer]:
+          - /url: /content/letters-325
+        - link "Letters CCCXXVI" [ref=e649] [cursor=pointer]:
+          - /url: /content/letters-326
+        - link "Letters CCCXXVII" [ref=e650] [cursor=pointer]:
+          - /url: /content/letters-327
+        - link "Letters CCCXXVIII" [ref=e651] [cursor=pointer]:
+          - /url: /content/letters-328
+        - link "Letters CCCXXIX" [ref=e652] [cursor=pointer]:
+          - /url: /content/letters-329
+        - link "Letters CCCXXX" [ref=e653] [cursor=pointer]:
+          - /url: /content/letters-330
+        - link "Letters CCCXXXI" [ref=e654] [cursor=pointer]:
+          - /url: /content/letters-331
+        - link "Letters CCCXXXII" [ref=e655] [cursor=pointer]:
+          - /url: /content/letters-332
+        - link "Letters CCCXXXIII" [ref=e656] [cursor=pointer]:
+          - /url: /content/letters-333
+        - link "Letters CCCXXXIV" [ref=e657] [cursor=pointer]:
+          - /url: /content/letters-334
+        - link "Letters CCCXXXV" [ref=e658] [cursor=pointer]:
+          - /url: /content/letters-335
+        - link "Letters CCCXXXVI" [ref=e659] [cursor=pointer]:
+          - /url: /content/letters-336
+        - link "Letters CCCXXXVII" [ref=e660] [cursor=pointer]:
+          - /url: /content/letters-337
+        - link "Letters CCCXXXVIII" [ref=e661] [cursor=pointer]:
+          - /url: /content/letters-338
+        - link "Letters CCCXXXIX" [ref=e662] [cursor=pointer]:
+          - /url: /content/letters-339
+        - link "Letters CCCXL" [ref=e663] [cursor=pointer]:
+          - /url: /content/letters-340
+        - link "Letters CCCXLI" [ref=e664] [cursor=pointer]:
+          - /url: /content/letters-341
+        - link "Letters CCCXLII" [ref=e665] [cursor=pointer]:
+          - /url: /content/letters-342
+        - link "Letters CCCXLIII" [ref=e666] [cursor=pointer]:
+          - /url: /content/letters-343
+        - link "Letters CCCXLIV" [ref=e667] [cursor=pointer]:
+          - /url: /content/letters-344
+        - link "Letters CCCXLV" [ref=e668] [cursor=pointer]:
+          - /url: /content/letters-345
+        - link "Letters CCCXLVI" [ref=e669] [cursor=pointer]:
+          - /url: /content/letters-346
+        - link "Letters CCCXLVII" [ref=e670] [cursor=pointer]:
+          - /url: /content/letters-347
+        - link "Letters CCCXLVIII" [ref=e671] [cursor=pointer]:
+          - /url: /content/letters-348
+        - link "Letters CCCXLIX" [ref=e672] [cursor=pointer]:
+          - /url: /content/letters-349
+        - link "Letters CCCL" [ref=e673] [cursor=pointer]:
+          - /url: /content/letters-350
+        - link "Letters CCCLI" [ref=e674] [cursor=pointer]:
+          - /url: /content/letters-351
+        - link "Letters CCCLII" [ref=e675] [cursor=pointer]:
+          - /url: /content/letters-352
+        - link "Letters CCCLIII" [ref=e676] [cursor=pointer]:
+          - /url: /content/letters-353
+        - link "Letters CCCLIV" [ref=e677] [cursor=pointer]:
+          - /url: /content/letters-354
+        - link "Letters CCCLV" [ref=e678] [cursor=pointer]:
+          - /url: /content/letters-355
+        - link "Letters CCCLVI" [ref=e679] [cursor=pointer]:
+          - /url: /content/letters-356
+        - link "Letters CCCLVII" [ref=e680] [cursor=pointer]:
+          - /url: /content/letters-357
+        - link "Letters CCCLVIII" [ref=e681] [cursor=pointer]:
+          - /url: /content/letters-358
+        - link "Letters CCCLIX" [ref=e682] [cursor=pointer]:
+          - /url: /content/letters-359
+        - link "Letters CCCLX" [ref=e683] [cursor=pointer]:
+          - /url: /content/letters-360
+        - link "Letters CCCLXI" [ref=e684] [cursor=pointer]:
+          - /url: /content/letters-361
+        - link "Letters CCCLXII" [ref=e685] [cursor=pointer]:
+          - /url: /content/letters-362
+        - link "Letters CCCLXIII" [ref=e686] [cursor=pointer]:
+          - /url: /content/letters-363
+        - link "Letters CCCLXIV" [ref=e687] [cursor=pointer]:
+          - /url: /content/letters-364
+        - link "Letters CCCLXV" [ref=e688] [cursor=pointer]:
+          - /url: /content/letters-365
+        - link "Letters CCCLXVI" [ref=e689] [cursor=pointer]:
+          - /url: /content/letters-366
+        - link "Letters CCCLXVII" [ref=e690] [cursor=pointer]:
+          - /url: /content/letters-367
+        - link "Letters CCCLXVIII" [ref=e691] [cursor=pointer]:
+          - /url: /content/letters-368
+        - link "Letters CCCLXIX" [ref=e692] [cursor=pointer]:
+          - /url: /content/letters-369
+        - link "Letters CCCLXX" [ref=e693] [cursor=pointer]:
+          - /url: /content/letters-370
+        - link "Letters CCCLXXI" [ref=e694] [cursor=pointer]:
+          - /url: /content/letters-371
+        - link "Letters CCCLXXII" [ref=e695] [cursor=pointer]:
+          - /url: /content/letters-372
+        - link "Letters CCCLXXIII" [ref=e696] [cursor=pointer]:
+          - /url: /content/letters-373
+        - link "Letters CCCLXXIV" [ref=e697] [cursor=pointer]:
+          - /url: /content/letters-374
+        - link "Letters CCCLXXV" [ref=e698] [cursor=pointer]:
+          - /url: /content/letters-375
+        - link "Letters CCCLXXVI" [ref=e699] [cursor=pointer]:
+          - /url: /content/letters-376
+        - link "Letters CCCLXXVII" [ref=e700] [cursor=pointer]:
+          - /url: /content/letters-377
+        - link "Letters CCCLXXVIII" [ref=e701] [cursor=pointer]:
+          - /url: /content/letters-378
+        - link "Letters CCCLXXIX" [ref=e702] [cursor=pointer]:
+          - /url: /content/letters-379
+        - link "Letters CCCLXXX" [ref=e703] [cursor=pointer]:
+          - /url: /content/letters-380
+        - link "Letters CCCLXXXI" [ref=e704] [cursor=pointer]:
+          - /url: /content/letters-381
+        - link "Letters CCCLXXXII" [ref=e705] [cursor=pointer]:
+          - /url: /content/letters-382
+        - link "Letters CCCLXXXIII" [ref=e706] [cursor=pointer]:
+          - /url: /content/letters-383
+        - link "Letters CCCLXXXIV" [ref=e707] [cursor=pointer]:
+          - /url: /content/letters-384
+        - link "Letters CCCLXXXV" [ref=e708] [cursor=pointer]:
+          - /url: /content/letters-385
+        - link "Letters CCCLXXXVI" [ref=e709] [cursor=pointer]:
+          - /url: /content/letters-386
+        - link "Letters CCCLXXXVII" [ref=e710] [cursor=pointer]:
+          - /url: /content/letters-387
+        - link "Letters CCCLXXXVIII" [ref=e711] [cursor=pointer]:
+          - /url: /content/letters-388
+        - link "Letters CCCLXXXIX" [ref=e712] [cursor=pointer]:
+          - /url: /content/letters-389
+        - link "Letters CCCXC" [ref=e713] [cursor=pointer]:
+          - /url: /content/letters-390
+        - link "Letters CCCXCI" [ref=e714] [cursor=pointer]:
+          - /url: /content/letters-391
+        - link "Letters CCCXCII" [ref=e715] [cursor=pointer]:
+          - /url: /content/letters-392
+        - link "Letters CCCXCIII" [ref=e716] [cursor=pointer]:
+          - /url: /content/letters-393
+        - link "Letters CCCXCIV" [ref=e717] [cursor=pointer]:
+          - /url: /content/letters-394
+        - link "Letters CCCXCV" [ref=e718] [cursor=pointer]:
+          - /url: /content/letters-395
+        - link "Letters CCCXCVI" [ref=e719] [cursor=pointer]:
+          - /url: /content/letters-396
+        - link "Letters CCCXCVII" [ref=e720] [cursor=pointer]:
+          - /url: /content/letters-397
+        - link "Letters CCCXCVIII" [ref=e721] [cursor=pointer]:
+          - /url: /content/letters-398
+        - link "Letters CCCXCIX" [ref=e722] [cursor=pointer]:
+          - /url: /content/letters-399
+        - link "Letters CD" [ref=e723] [cursor=pointer]:
+          - /url: /content/letters-400
+        - link "Letters CDI" [ref=e724] [cursor=pointer]:
+          - /url: /content/letters-401
+        - link "Letters CDII" [ref=e725] [cursor=pointer]:
+          - /url: /content/letters-402
+        - link "Letters CDIII" [ref=e726] [cursor=pointer]:
+          - /url: /content/letters-403
+        - link "Letters CDIV" [ref=e727] [cursor=pointer]:
+          - /url: /content/letters-404
+        - link "Letters CDV" [ref=e728] [cursor=pointer]:
+          - /url: /content/letters-405
+        - link "Letters CDVI" [ref=e729] [cursor=pointer]:
+          - /url: /content/letters-406
+        - link "Letters CDVII" [ref=e730] [cursor=pointer]:
+          - /url: /content/letters-407
+        - link "Letters CDVIII" [ref=e731] [cursor=pointer]:
+          - /url: /content/letters-408
+        - link "Letters CDIX" [ref=e732] [cursor=pointer]:
+          - /url: /content/letters-409
+        - link "Letters CDX" [ref=e733] [cursor=pointer]:
+          - /url: /content/letters-410
+        - link "Letters CDXI" [ref=e734] [cursor=pointer]:
+          - /url: /content/letters-411
+        - link "Letters CDXII" [ref=e735] [cursor=pointer]:
+          - /url: /content/letters-412
+        - link "Letters CDXIII" [ref=e736] [cursor=pointer]:
+          - /url: /content/letters-413
+        - link "Letters CDXIV" [ref=e737] [cursor=pointer]:
+          - /url: /content/letters-414
+        - link "Letters CDXV" [ref=e738] [cursor=pointer]:
+          - /url: /content/letters-415
+        - link "Letters CDXVI" [ref=e739] [cursor=pointer]:
+          - /url: /content/letters-416
+        - link "Letters CDXVII" [ref=e740] [cursor=pointer]:
+          - /url: /content/letters-417
+        - link "Letters CDXVIII" [ref=e741] [cursor=pointer]:
+          - /url: /content/letters-418
+        - link "Letters CDXIX" [ref=e742] [cursor=pointer]:
+          - /url: /content/letters-419
+        - link "Letters CDXX" [ref=e743] [cursor=pointer]:
+          - /url: /content/letters-420
+        - link "Letters CDXXI" [ref=e744] [cursor=pointer]:
+          - /url: /content/letters-421
+        - link "Letters CDXXII" [ref=e745] [cursor=pointer]:
+          - /url: /content/letters-422
+        - link "Letters CDXXIII" [ref=e746] [cursor=pointer]:
+          - /url: /content/letters-423
+        - link "Letters CDXXIV" [ref=e747] [cursor=pointer]:
+          - /url: /content/letters-424
+        - link "Letters CDXXV" [ref=e748] [cursor=pointer]:
+          - /url: /content/letters-425
+        - link "Letters CDXXVI" [ref=e749] [cursor=pointer]:
+          - /url: /content/letters-426
+        - link "Letters CDXXVII" [ref=e750] [cursor=pointer]:
+          - /url: /content/letters-427
+        - link "Letters CDXXVIII" [ref=e751] [cursor=pointer]:
+          - /url: /content/letters-428
+  - contentinfo [ref=e752]:
+    - generic [ref=e753]:
+      - generic [ref=e754]:
+        - generic [ref=e755]:
+          - generic [ref=e756]: 🍊
+          - generic [ref=e757]: The Orange Papers
+        - paragraph [ref=e758]: An in-depth series investigating Alcoholics Anonymous, twelve-step programs, and evidence-based alternatives for substance misuse recovery. Originally by "Orange" — this is a mirror/preservation.
+        - paragraph [ref=e759]: This mirror has no affiliation with the original author. For corrections contact the site maintainer.
+        - link "Join the Orange Papers Discord channel" [ref=e760] [cursor=pointer]:
+          - /url: https://discord.gg/Xr8hNYtY3w
+          - img [ref=e762]
+          - generic [ref=e764]:
+            - generic [ref=e765]: Join the discussion
+            - generic [ref=e766]: Orange Papers channel · Recovery Without AA Discord Server
+      - generic [ref=e767]:
+        - generic [ref=e768]: Core Articles
+        - list [ref=e769]:
+          - listitem [ref=e770]:
+            - link "Introduction" [ref=e771] [cursor=pointer]:
+              - /url: /content/intro
+          - listitem [ref=e772]:
+            - link "AA Effectiveness" [ref=e773] [cursor=pointer]:
+              - /url: /content/effectiveness
+          - listitem [ref=e774]:
+            - link "12 Biggest Secrets" [ref=e775] [cursor=pointer]:
+              - /url: /content/secrets
+          - listitem [ref=e776]:
+            - link "Propaganda Techniques" [ref=e777] [cursor=pointer]:
+              - /url: /content/propaganda
+          - listitem [ref=e778]:
+            - link "Horror Stories" [ref=e779] [cursor=pointer]:
+              - /url: /content/horrors
+      - generic [ref=e780]:
+        - generic [ref=e781]: Recovery
+        - list [ref=e782]:
+          - listitem [ref=e783]:
+            - link "Lizard-Brain Monster" [ref=e784] [cursor=pointer]:
+              - /url: /content/addiction-monster
+          - listitem [ref=e785]:
+            - link "Rat Park" [ref=e786] [cursor=pointer]:
+              - /url: /content/rat-park
+          - listitem [ref=e787]:
+            - link "What Works?" [ref=e788] [cursor=pointer]:
+              - /url: /content/what-works
+          - listitem [ref=e789]:
+            - link "Evidence-Based Groups" [ref=e790] [cursor=pointer]:
+              - /url: /content/alt-list
+          - listitem [ref=e791]:
+            - link "Top 10 Reading List" [ref=e792] [cursor=pointer]:
+              - /url: /content/top10
+      - generic [ref=e793]:
+        - generic [ref=e794]: Research
+        - list [ref=e795]:
+          - listitem [ref=e796]:
+            - link "Cult Test" [ref=e797] [cursor=pointer]:
+              - /url: /content/cult
+          - listitem [ref=e798]:
+            - link "Religious Roots" [ref=e799] [cursor=pointer]:
+              - /url: /content/religious-roots
+          - listitem [ref=e800]:
+            - link "Bibliography" [ref=e801] [cursor=pointer]:
+              - /url: /content/bibliography
+          - listitem [ref=e802]:
+            - link "All Letters" [ref=e803] [cursor=pointer]:
+              - /url: /letters
+          - listitem [ref=e804]:
+            - link "External Links" [ref=e805] [cursor=pointer]:
+              - /url: /content/links
+    - generic [ref=e806]:
+      - generic [ref=e807]: © The Orange Papers — Mirror & Preservation. Original content by "Orange".
+      - generic [ref=e808]:
+        - link "Articles" [ref=e809] [cursor=pointer]:
+          - /url: /articles
+        - link "Letters" [ref=e810] [cursor=pointer]:
+          - /url: /letters
+        - link "Original Site ↗" [ref=e811] [cursor=pointer]:
+          - /url: https://orangepapers.eth.limo
+  - button "Open Next.js Dev Tools" [ref=e817] [cursor=pointer]:
+    - img [ref=e818]
