@@ -2,8 +2,10 @@ import * as cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
 
-const CONTENT_DIR = path.join(process.cwd(), "..", "OPReborn", "latest");
-const ROOT_CONTENT_DIR = path.join(process.cwd(), "..", "OPReborn");
+// Primary: files committed inside the project (works on Vercel and locally)
+const CONTENT_DIR = path.join(process.cwd(), "content");
+// Fallback: sibling OPReborn repo (local development only)
+const ROOT_CONTENT_DIR = path.join(process.cwd(), "..", "OPReborn", "latest");
 
 export interface ProcessedContent {
   html: string;
@@ -52,14 +54,27 @@ export async function processHtmlFile(filename: string): Promise<ProcessedConten
     });
 
     // Fix image paths
+    const IMG_EXT = /\.(jpg|jpeg|png|gif|webp|svg|ico|bmp|pdf|mp4|wmv|swf)(\?.*)?$/i;
     $("img[src]").each((_, el) => {
       let src = $(el).attr("src") || "";
-      if (src.startsWith("/")) {
-        // Already absolute - rewrite to /assets/
-        const filename = src.replace(/^\//, "");
+
+      let filename: string | null = null;
+
+      if (src.startsWith("/") || src.startsWith("http")) {
+        // Wayback Machine or absolute URL — extract just the filename from the end
+        // e.g. /web/20161020im_/https://orange-papers.org/orange-BillW-B.jpg → orange-BillW-B.jpg
+        const match = src.match(/\/([^/?#]+)(\?[^#]*)?$/);
+        if (match && IMG_EXT.test(match[1])) {
+          filename = match[1];
+        }
+      } else if (!src.startsWith("data:")) {
+        // Relative path — use filename part only
+        filename = src.split("/").pop() || src;
+        if (!IMG_EXT.test(filename)) filename = null;
+      }
+
+      if (filename) {
         $(el).attr("src", `/assets/${filename}`);
-      } else if (!src.startsWith("http") && !src.startsWith("data:")) {
-        $(el).attr("src", `/assets/${src}`);
       }
       // Add loading=lazy
       $(el).attr("loading", "lazy");

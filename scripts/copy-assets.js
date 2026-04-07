@@ -57,3 +57,19 @@ total += copyFilesFromDir(SOURCE_ROOT, DEST);
 total += copyFilesFromDir(SOURCE_IMAGES, DEST);
 
 console.log(`✅ Copied ${total} assets to public/assets/`);
+
+// Sync HTML content files into project content/ directory
+const HTML_DEST = path.join(__dirname, "..", "content");
+ensureDir(HTML_DEST);
+if (fs.existsSync(SOURCE_LATEST)) {
+  let htmlCount = 0;
+  for (const entry of fs.readdirSync(SOURCE_LATEST, { withFileTypes: true })) {
+    if (entry.isDirectory() || path.extname(entry.name).toLowerCase() !== ".html") continue;
+    const src = path.join(SOURCE_LATEST, entry.name);
+    const dest = path.join(HTML_DEST, entry.name);
+    try { fs.copyFileSync(src, dest); htmlCount++; } catch (e) {}
+  }
+  console.log(`✅ Synced ${htmlCount} HTML files to content/`);
+} else {
+  console.log(`[skip] OPReborn/latest not found — using existing content/`);
+}
