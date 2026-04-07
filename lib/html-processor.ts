@@ -23,7 +23,7 @@ export async function processHtmlFile(filename: string): Promise<ProcessedConten
 
   try {
     const raw = fs.readFileSync(filePath, "utf-8");
-    const $ = cheerio.load(raw, { decodeEntities: false });
+    const $ = cheerio.load(raw);
 
     const title = $("title").text() || "Orange Papers";
 
@@ -63,6 +63,35 @@ export async function processHtmlFile(filename: string): Promise<ProcessedConten
       }
       // Add loading=lazy
       $(el).attr("loading", "lazy");
+      // Strip fixed pixel dimensions — CSS handles max-width:100%
+      $(el).removeAttr("width").removeAttr("height");
+    });
+
+    // Strip align/valign from block elements — CSS handles text-align
+    $("p[align], div[align], h1[align], h2[align], h3[align], h4[align], blockquote[align]").removeAttr("align");
+    $("td[valign], th[valign]").removeAttr("valign");
+    // Strip width/size/align from hr — CSS enforces 100% width
+    $("hr").removeAttr("width").removeAttr("size").removeAttr("align");
+
+    // Normalize tables for responsive layout
+    $("table").each((_, el) => {
+      const $t = $(el);
+
+      // Strip float-causing align attribute (align="right/left" → CSS float)
+      $t.removeAttr("align");
+
+      // Strip invalid/pixel widths (e.g. "93%%" or "800").
+      // Percentage widths with double %% are invalid; pixel widths force fixed layout.
+      const w = $t.attr("width") || "";
+      if (w && (w.includes("%%") || /^\d+$/.test(w.trim()))) {
+        $t.removeAttr("width");
+      }
+
+      // Wrap every table that is NOT already inside a .tscroll wrapper
+      // so CSS can apply overflow-x:auto on the wrapper instead of the table.
+      if (!$t.parent().hasClass("tscroll")) {
+        $t.wrap('<div class="tscroll"></div>');
+      }
     });
 
     // Get the body content

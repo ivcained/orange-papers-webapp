@@ -34,7 +34,7 @@ export default function ArticlesPage() {
   }
 
   return (
-    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "3rem 2rem" }}>
+    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "3rem clamp(1rem, 4vw, 2rem)" }}>
       {/* Header */}
       <div style={{ marginBottom: "3rem" }}>
         <div className="content-breadcrumb" style={{ marginBottom: "1rem" }}>

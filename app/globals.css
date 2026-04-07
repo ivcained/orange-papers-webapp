@@ -18,9 +18,9 @@
   --accent-gold: #d97706;
   --accent-warm: #ea580c;
 
-  --text-primary: #f0ede8;
-  --text-secondary: #a8a29e;
-  --text-muted: #6b6560;
+  --text-primary: #f5f2ee;
+  --text-secondary: #c8c2bc;
+  --text-muted: #9e9690;
   --text-link: #fb923c;
   --text-link-hover: #fed7aa;
 
@@ -40,6 +40,7 @@
 
   --font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
   --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-reading: var(--font-lora), 'Lora', Georgia, serif;
 
   --navbar-h: 64px;
 }
@@ -50,6 +51,10 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  html { font-size: 17px; }
 }
 
 body {
@@ -91,25 +96,34 @@ a:hover { color: var(--text-link-hover); }
   margin: 0 auto;
   padding: 1.5rem 0 3rem;
   color: var(--text-primary);
-  font-family: var(--font-sans);
-  font-size: 1rem;
-  line-height: 1.75;
-  overflow-x: hidden;
-  overflow-wrap: break-word;
+  font-family: var(--font-reading);
+  font-size: 1.05rem;
+  line-height: 1.85;
+  /* "anywhere" affects min-content size so long URLs can't force containers wider */
+  overflow-wrap: anywhere;
   word-break: break-word;
 }
 
-/* Override original table-based layouts — force all tables to be responsive */
+/* Scroll wrapper injected by html-processor around every table */
+.op-content-wrapper .tscroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.25rem 0;
+}
+
+/* Override original table-based layouts — keep display:table so layout is correct */
 .op-content-wrapper table {
   border-collapse: collapse;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 1.25rem 0;
+  margin: 0;
   border-radius: var(--radius-md);
-  overflow: hidden;
-  display: block;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  table-layout: auto;
+  /* float removed by html-processor (align attr stripped); belt-and-suspenders: */
+  float: none !important;
+  clear: both;
 }
 
 .op-content-wrapper table[border="10"],
@@ -127,6 +141,27 @@ a:hover { color: var(--text-link-hover); }
   border: none;
   min-width: 0;
   word-break: break-word;
+  overflow-wrap: anywhere;
+  color: var(--text-primary);
+}
+
+/* Strip hardcoded pixel/percent widths from table cells so they reflow on mobile */
+.op-content-wrapper td[width],
+.op-content-wrapper th[width] {
+  width: auto !important;
+  max-width: 100%;
+}
+
+/* Strip all bgcolor attributes from cells — let the table background show through */
+.op-content-wrapper td[bgcolor],
+.op-content-wrapper th[bgcolor],
+.op-content-wrapper tr[bgcolor] {
+  background-color: transparent !important;
+}
+
+/* Remap table-level bgcolor to dark bg */
+.op-content-wrapper table[bgcolor] {
+  background-color: var(--bg-card) !important;
 }
 
 /* Blue blockquote boxes (original bordercolor=blue) */
@@ -148,9 +183,60 @@ a:hover { color: var(--text-link-hover); }
 
 /* Font elements — flatten to CSS */
 .op-content-wrapper font { display: inline; font-size: inherit; }
-.op-content-wrapper font[color="blue"], .op-content-wrapper font[color="#0000FF"] { color: #60a5fa; }
-.op-content-wrapper font[color="red"], .op-content-wrapper font[color="#FF0000"], .op-content-wrapper font[color="#FF1111"], .op-content-wrapper font[color="#9F0000"] { color: #f87171; }
-.op-content-wrapper font[color="green"], .op-content-wrapper font[color="#009900"] { color: #4ade80; }
+
+/* Any font[color] defaults to readable primary — specific colors override below */
+.op-content-wrapper font[color] { color: var(--text-primary); }
+
+/* Remap dark/black text to readable light color */
+.op-content-wrapper font[color="black"],
+.op-content-wrapper font[color="Black"],
+.op-content-wrapper font[color="#000000"],
+.op-content-wrapper font[color="#000"],
+.op-content-wrapper font[color="#111111"],
+.op-content-wrapper font[color="#111"],
+.op-content-wrapper font[color="#222222"],
+.op-content-wrapper font[color="#222"],
+.op-content-wrapper font[color="#333333"],
+.op-content-wrapper font[color="#333"],
+.op-content-wrapper font[color="#444444"],
+.op-content-wrapper font[color="#444"],
+.op-content-wrapper font[color="#555555"],
+.op-content-wrapper font[color="#555"],
+.op-content-wrapper font[color="#666666"],
+.op-content-wrapper font[color="#666"] { color: var(--text-primary); }
+
+/* Colored text — remap to dark-theme safe equivalents */
+.op-content-wrapper font[color="blue"],
+.op-content-wrapper font[color="Blue"],
+.op-content-wrapper font[color="#0000FF"],
+.op-content-wrapper font[color="#0000ff"],
+.op-content-wrapper font[color="#000080"],
+.op-content-wrapper font[color="#00008B"] { color: #60a5fa; }
+
+.op-content-wrapper font[color="red"],
+.op-content-wrapper font[color="Red"],
+.op-content-wrapper font[color="#FF0000"],
+.op-content-wrapper font[color="#ff0000"],
+.op-content-wrapper font[color="#FF1111"],
+.op-content-wrapper font[color="#9F0000"],
+.op-content-wrapper font[color="#CC0000"],
+.op-content-wrapper font[color="#800000"] { color: #f87171; }
+
+.op-content-wrapper font[color="green"],
+.op-content-wrapper font[color="Green"],
+.op-content-wrapper font[color="#009900"],
+.op-content-wrapper font[color="#008000"],
+.op-content-wrapper font[color="#006400"] { color: #4ade80; }
+
+.op-content-wrapper font[color="purple"],
+.op-content-wrapper font[color="Purple"],
+.op-content-wrapper font[color="#800080"],
+.op-content-wrapper font[color="#FF00FF"] { color: #c084fc; }
+
+.op-content-wrapper font[color="orange"],
+.op-content-wrapper font[color="Orange"],
+.op-content-wrapper font[color="#FF8800"],
+.op-content-wrapper font[color="#FFA500"] { color: var(--accent-orange); }
 
 .op-content-wrapper h1, .op-content-wrapper h2, .op-content-wrapper h3, .op-content-wrapper h4 {
   font-family: var(--font-serif);
@@ -189,17 +275,91 @@ a:hover { color: var(--text-link-hover); }
 .op-content-wrapper b, .op-content-wrapper strong { color: #e5e0d8; }
 .op-content-wrapper i, .op-content-wrapper em { color: #c9c3bb; font-style: italic; }
 
-.op-content-wrapper hr { border: none; border-top: 1px solid var(--border-medium); margin: 2rem 0; }
+.op-content-wrapper hr { border: none; border-top: 1px solid var(--border-medium); margin: 2rem 0; width: 100% !important; max-width: 100% !important; }
 
 .op-content-wrapper sup a { color: var(--accent-amber); font-size: 0.75em; }
 
+/* Long raw URLs used as link text must break at any character */
+.op-content-wrapper a {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+
+/* Pre/code — wrap long lines instead of forcing horizontal scroll */
+.op-content-wrapper pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  overflow-x: auto;
+  background: var(--bg-tertiary);
+  padding: 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85em;
+}
+.op-content-wrapper code {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  font-size: 0.875em;
+}
+
+/* Strip hardcoded img dimensions so they never exceed container */
+.op-content-wrapper img[width],
+.op-content-wrapper img[height] {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+/* Prevent any direct child from blowing out the wrapper width */
+.op-content-wrapper > * {
+  max-width: 100%;
+}
+
+/* Catch-all: any element with a text color attribute (not font) reset to readable */
+.op-content-wrapper p[color],
+.op-content-wrapper div[color],
+.op-content-wrapper span[color],
+.op-content-wrapper li[color],
+.op-content-wrapper blockquote[color] { color: var(--text-primary); }
+
+/* Strip inline white/light backgrounds that make text invisible on dark bg */
+.op-content-wrapper [style*="background:white"],
+.op-content-wrapper [style*="background: white"],
+.op-content-wrapper [style*="background-color:white"],
+.op-content-wrapper [style*="background-color: white"],
+.op-content-wrapper [style*="background:#fff"],
+.op-content-wrapper [style*="background: #fff"],
+.op-content-wrapper [style*="background:#ffffff"],
+.op-content-wrapper [style*="background: #ffffff"],
+.op-content-wrapper [style*="background-color:#fff"],
+.op-content-wrapper [style*="background-color: #fff"],
+.op-content-wrapper [style*="background-color:#ffffff"],
+.op-content-wrapper [style*="background-color: #ffffff"] {
+  background-color: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Strip inline dark/black text colors */
+.op-content-wrapper [style*="color:black"],
+.op-content-wrapper [style*="color: black"],
+.op-content-wrapper [style*="color:#000"],
+.op-content-wrapper [style*="color: #000"],
+.op-content-wrapper [style*="color:#000000"],
+.op-content-wrapper [style*="color: #000000"] {
+  color: var(--text-primary) !important;
+}
+
 /* Mobile content overrides */
 @media (max-width: 600px) {
-  .op-content-wrapper { font-size: 0.95rem; line-height: 1.7; }
-  .op-content-wrapper h1 { font-size: 1.6rem; }
-  .op-content-wrapper h2 { font-size: 1.3rem; }
+  .op-content-wrapper { font-size: 1rem; line-height: 1.8; padding-bottom: 2rem; }
+  .op-content-wrapper h1 { font-size: 1.5rem; }
+  .op-content-wrapper h2 { font-size: 1.25rem; }
   .op-content-wrapper h3 { font-size: 1.1rem; }
-  .op-content-wrapper td, .op-content-wrapper th { padding: 0.5rem; font-size: 0.85rem; }
+  .op-content-wrapper td, .op-content-wrapper th { padding: 0.4rem 0.5rem; font-size: 0.875rem; }
+  .op-content-wrapper pre { font-size: 0.8rem; padding: 0.75rem; }
+  /* Restore the table display as block so each can scroll independently */
+  .op-content-wrapper table { display: block; overflow-x: auto; font-size: 0.875rem; }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -372,8 +532,8 @@ a:hover { color: var(--text-link-hover); }
   color: var(--accent-orange);
 }
 .stat-label {
-  font-size: 0.75rem;
-  color: var(--text-muted);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -445,7 +605,7 @@ a:hover { color: var(--text-link-hover); }
 .article-card:hover::before { opacity: 1; }
 
 .article-card-title {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
   line-height: 1.4;
@@ -453,9 +613,9 @@ a:hover { color: var(--text-link-hover); }
 }
 
 .article-card-desc {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  line-height: 1.5;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 
 .article-card-tag {
@@ -487,7 +647,7 @@ a:hover { color: var(--text-link-hover); }
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   color: var(--text-secondary);
   transition: all 0.15s;
   text-align: center;
@@ -573,7 +733,7 @@ a:hover { color: var(--text-link-hover); }
 .nav-link {
   padding: 0.4rem 0.8rem;
   border-radius: var(--radius-sm);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-secondary);
   text-decoration: none;
@@ -859,7 +1019,12 @@ a:hover { color: var(--text-link-hover); }
   margin: 0 auto;
   min-height: calc(100vh - var(--navbar-h));
   width: 100%;
-  overflow: hidden;
+  min-width: 0;
+}
+
+/* Prevent grid items from blowing out the 1fr column */
+.content-page > * {
+  min-width: 0;
 }
 
 @media (max-width: 960px) {
@@ -892,8 +1057,8 @@ a:hover { color: var(--text-link-hover); }
 
 .sidebar-link {
   display: block;
-  padding: 0.45rem 0.75rem;
-  font-size: 0.82rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   text-decoration: none;
   border-radius: var(--radius-sm);
@@ -908,15 +1073,15 @@ a:hover { color: var(--text-link-hover); }
   padding: 2.5rem 2.5rem 4rem;
   max-width: 800px;
   min-width: 0;
-  overflow: hidden;
+  overflow-x: clip;
 }
 
 @media (max-width: 960px) {
-  .content-article { padding: 1.5rem 1.25rem 3rem; max-width: 100%; }
+  .content-article { padding: 1.5rem 1.5rem 3rem; max-width: 100%; }
 }
 
 @media (max-width: 480px) {
-  .content-article { padding: 1.25rem 1rem 2.5rem; }
+  .content-article { padding: 1.25rem 1.25rem 2.5rem; }
 }
 
 .content-breadcrumb {
@@ -962,10 +1127,17 @@ a:hover { color: var(--text-link-hover); }
 
 .content-nav-bar {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border-subtle);
+}
+
+@media (max-width: 600px) {
+  .content-nav-bar { gap: 0.4rem; }
+  .content-nav-btn { flex: 1 1 45%; min-width: 0; max-width: 100%; }
+  .content-nav-btn span { max-width: none !important; white-space: normal !important; }
 }
 
 .content-nav-btn {
@@ -976,7 +1148,7 @@ a:hover { color: var(--text-link-hover); }
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   text-decoration: none;
   transition: all 0.15s;
@@ -1012,8 +1184,8 @@ a:hover { color: var(--text-link-hover); }
 }
 
 .footer-brand p {
-  font-size: 0.85rem;
-  color: var(--text-muted);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
   line-height: 1.7;
   margin-top: 0.75rem;
 }
@@ -1029,7 +1201,7 @@ a:hover { color: var(--text-link-hover); }
 .footer-links { list-style: none; }
 .footer-links li { margin-bottom: 0.5rem; }
 .footer-links a {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.15s;

@@ -120,7 +120,7 @@ export default async function ContentPage({ params }: Props) {
           {content.found ? (
             <div
               className="op-content-wrapper"
-              style={{ padding: 0 }}
+              style={{ paddingLeft: 0, paddingRight: 0 }}
               dangerouslySetInnerHTML={{ __html: content.html }}
             />
           ) : (
